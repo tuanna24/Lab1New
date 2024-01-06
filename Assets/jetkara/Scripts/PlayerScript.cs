@@ -49,8 +49,6 @@ public class PlayerScript : MonoBehaviour
 				GetComponent<AudioSource>().clip = auClip[1];
 				GetComponent<AudioSource>().Play();
 				// Invoke("BackToMain", 1.5f);
-
-				//test 
 			}
 		}
 	}
